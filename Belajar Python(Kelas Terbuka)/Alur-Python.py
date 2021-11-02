@@ -12,3 +12,9 @@ print(a * 9)
 
 # kita bisa mengcompile python ke 
 # yang namanya bytecode
+# cara mengcompile, buka terminal dan tuliskan
+# python -m py_compile (yournamefile).py
+
+
+
+
