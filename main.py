@@ -6,4 +6,5 @@ Semua Sintaksis Dasar bahasa Pemrograman terdiri dari:
 '''
 
 #Sekuensial example code
-print('Hola Senorita')
+
+print("Hallo Universe")
