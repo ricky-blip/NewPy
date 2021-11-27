@@ -20,9 +20,9 @@ print("\n====Conversion Temperature in Fahrenheit====\n")
 fahrenheit = float(input("Type Temperature in Fahrenheit:"))
 
 print("Your Input",fahrenheit,"Fahrenheit","=",
-        (fahrenheit-32)*5/9,"in Celsius",
-        (fahrenheit-32)*4/9,"in Reamur",
-        (fahrenheit-32)*5/9+273.15,"in Kelvin")
+        round((fahrenheit-32)*5/9,3),"in Celsius",
+        round((fahrenheit-32)*4/9,3),"in Reamur",
+        round((fahrenheit-32)*5/9+273.15,3),"in Kelvin")
 
 print("\n====Conversion Temperature in Kelvin====\n")
 kelvin = float(input("Type Temperature in Kelvin:"))
