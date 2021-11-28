@@ -27,7 +27,7 @@ print("Your Input",fahrenheit,"Fahrenheit","=","|",
 print("\n====Conversion Temperature in Kelvin====\n")
 kelvin = float(input("Type Temperature in Kelvin:"))
 
-print("Your Input",kelvin,"kelvin","=","|",
+print("Your Input",kelvin,"Kelvin","=","|",
         kelvin-273.15,"in Celsius","|",
         (kelvin-273.15)*0.8,"in Reamur","|",
         kelvin*1.8-459.67,"in Fahrenheit","|")
