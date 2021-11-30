@@ -82,5 +82,35 @@ print(l,'!=',9, '=', hasil)
 hasil = l != 12
 print(l,'!=',12, '=', hasil)
 
+print("==== is =====")
+# membandingkan antar variabel(object)
+m = 13 
+n = 13
+o = 14
+
+hasil = m is n
+print(m,'is',n, '=', hasil)
+
+hasil = n is o
+print(n,'is',o, '=', hasil)
+
+hasil = o is m
+print(o,'is',m, '=', hasil)
+
+print("==== is not =====")
+# membandingkan antar variabel(object)
+p = 15 
+q = 15
+r = 16
+
+hasil = p is not q
+print(p,'is not',q, '=', hasil)
+
+hasil = q is not r
+print(q,'is not',r, '=', hasil)
+
+hasil = r is not p
+print(r,'is not',p, '=', hasil)
+
 
 
