@@ -39,23 +39,23 @@ print("\n=============================Bitwise\n")
 # Operasi Bitwise
 #OR
 d  = True
-print("nilai d=",d)
+print("nilai d =",d)
 d |= False # artinya adalah d = d | False
-print("nilai d |= False, nilai c menjadi",d)
+print("nilai d |= False, nilai d menjadi",d)
 d |= True # artinya adalah d = d | True
-print("nilai d |= True, nilai c menjadi",d)
+print("nilai d |= True, nilai d menjadi",d)
 
 #AND
 d  = True
-print("nilai d=",d)
+print("nilai d =",d)
 d &= False # artinya adalah d = d & False
-print("nilai d &= False, nilai c menjadi",d)
+print("nilai d &= False, nilai d menjadi",d)
 d &= True # artinya adalah d = d & True
-print("nilai d &= True, nilai c menjadi",d)
+print("nilai d &= True, nilai d menjadi",d)
 
 #XOR
 d  = True
-print("nilai d=",d)
+print("nilai d =",d)
 d ^= False # artinya adalah d = d ^ False
 print("nilai d ^= False, nilai c menjadi",d)
 d ^= True # artinya adalah d = d ^ True
