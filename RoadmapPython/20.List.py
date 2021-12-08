@@ -63,6 +63,32 @@ print(f'Data4             = {Data4}')
 Data4.append(99) # ADD data
 print(f'Add data in Data4 = {Data4}')
 
+print(50*"-")
+Data4.extend('extnd') # EXTEND data
+print(f'Extend data in Data4 = {Data4}')
+
+print(50*"-")
+Data4.insert(6,'PC') # INSERT data
+print(f'INSERT data in Data4 = {Data4}')
+
+print(20*"-" + "Count" + 20*"-")
+totalPC = Data4.count('PC')
+print(f"Total PC is : {totalPC}")
+
+print(20*"-" + "Remove" + 20*"-")
+Data4.remove('PC')
+print(f"REMOVE data in Data4 = {Data4}")
+
+print(20*"-" + "Reverse" + 20*"-")
+Data4.reverse()
+print(f"REVERSE data in Data4 = {Data4}")
+
+print(20*"-" + "COPYING" + 20*"-")
+stuffs = Data4.copy()
+stuffs.append('Calculator')
+print(f"Data in stuffs with append = {stuffs}")
+print(f"Data original              = {Data4}")
+
 print("\n" +5*"=" + "Function List" + 5*"=")
 Length_list = len(Data4)
 
