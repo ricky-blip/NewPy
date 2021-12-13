@@ -1,0 +1,4 @@
+This is data text created used by Python
+Line 2
+Line 3
+This line made by appending mode
