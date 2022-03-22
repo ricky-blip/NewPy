@@ -6,5 +6,26 @@ Semua Sintaksis Dasar bahasa Pemrograman terdiri dari:
 '''
 
 #Sekuensial example code
-a = 'Ricky'
-print(f"Hallo Universe, {a}")
+# a = 'Ricky'
+# print(f"Hallo Universe, {a}")
+
+'''
+2000 leap year
+2100 not leap year
+2400 leap year
+1990 not leap year
+1992 leap year
+'''
+
+def is_leap(year):
+    leap = False
+    
+    # Write your logic here
+    if year % 4 == True or year % 100 == leap and year % 400 == True:
+        pass
+    
+    return leap
+
+year = int(input())
+print(is_leap(year))
+
